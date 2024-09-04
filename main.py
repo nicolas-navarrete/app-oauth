@@ -15,7 +15,7 @@ from streamlit_extras.metric_cards import style_metric_cards
 
 st.markdown("## This (and above) is always seen")
 def get_public_ip():
-    ip = requests.get('https://api.ipify.org').text
+    ip = requests.get('https://aplicacion.streamlit.app/').text
     return ip
 
 st.write("La dirección IP pública de esta aplicación es:", get_public_ip())
