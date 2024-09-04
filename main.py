@@ -12,12 +12,13 @@ from snowflake.snowpark.context import get_active_session
 from streamlit_extras.metric_cards import style_metric_cards
 
 
+
+st.markdown("## This (and above) is always seen")
 def get_public_ip():
     ip = requests.get('https://api.ipify.org').text
     return ip
 
 st.write("La dirección IP pública de esta aplicación es:", get_public_ip())
-st.markdown("## This (and above) is always seen")
 session = snowauth_session('OAUTHSNOW')
 
 
