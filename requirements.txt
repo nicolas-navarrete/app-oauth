@@ -97,7 +97,7 @@ sortedcontainers==2.4.0
 soupsieve==2.6
 st-annotated-text==4.0.1
 st-theme==1.2.3
-st_snowauth @ git+https://github.com/sfc-gh-bhess/st_snowauth.git@855a99a01643594bc3373f51c0960580a431ed48
+st_snowauth @ git+https://github.com/sfc-gh-bhess/st_snowauth.git@v1.3
 stack-data @ file:///home/conda/feedstock_root/build_artifacts/stack_data_1669632077133/work
 streamlit==1.38.0
 streamlit-camera-input-live==0.2.0
